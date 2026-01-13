@@ -1,22 +1,13 @@
-his project focused on building a production-style credit risk scorecard to predict loan default probability, following industry-standard practices used by banks and NBFCs.
+This project focused on building a production-style credit risk scorecard to predict loan default probability, following industry-standard practices used by banks and NBFCs.
+
 
 Problem Statement
 
 The objective was to develop an interpretable and stable credit risk model that accurately predicts the probability of default (PD) while satisfying business and regulatory requirements such as explainability, robustness, and population stability.
 
-Data Preparation & Feature Engineering
+Data Preparation & Feature Engineering, Performed extensive data cleaning, handling missing values, outliers, and inconsistent borrower attributes.
 
-Performed extensive data cleaning, handling missing values, outliers, and inconsistent borrower attributes.
-
-Applied ChiMerge binning to continuous variables to:
-
-Enforce monotonic relationship with default risk
-
-Reduce noise and variance
-
-Improve model interpretability and stability
-
-Transformed binned variables using Weight of Evidence (WOE) encoding to:
+Applied ChiMerge binning to continuous variables to: Enforce monotonic relationship with default risk,  Reduce noise and variance, Improve model interpretability and stability, Transformed binned variables using Weight of Evidence (WOE) encoding to:
 
 Capture predictive power of each bin
 
